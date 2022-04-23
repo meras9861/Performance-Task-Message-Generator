@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!-- Title & Intro Message-->  
+<div class="title">
+  <h1>Welcome to our message generator!</h1>
+  <h3><i>We will give you a message based on how you are feeling.</i></h3>
+</div>
+
+<!--Disclaimer --> 
+<div class="prompt">
+  <h4><i>We understand these are not all the emotions one may feel. These are just some common emotions that people feel. Please choose one that relates to you the most at this moment.</i></h4>
+</div>
+<!-- Prompts --> 
+  <div class="prompt">
+<p><b>How are you feeling today? Please choose one these options:</b></p>
+  <br>
+
+<!--Feeling Choices --> 
+  <p>Happy</p>
+  <p>Sad</p>
+  <p>Mad</p>
+  <p>Annoyed</p>
+  <p>Bored</p>
+<br>
+<!-- Text Box --> 
+<div>
+    <p>How are you feeling today?</p>
+    <input type="text" id="userHappy" oninput="userHappyFunction()">
+    <p id="userHappyInput"></p>
+</div>
+<button id="noShow"><a href="happy.html">~  Click Here ~</a></button>
+  <script src="script.js"></script>
+</body>
+
+</html>
+        
